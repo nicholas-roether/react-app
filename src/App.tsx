@@ -1,7 +1,5 @@
-import React from "react";
-
 function App(): JSX.Element {
-	return <h1>Hello World</h1>;
+	return <h1 css={{ textAlign: "center" }}>Hello World</h1>;
 }
 
 export default App;

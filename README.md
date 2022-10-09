@@ -6,7 +6,8 @@ using `create-react-app`. It is intended to be used with VSCode.
 This template's key features are:
 
 - It uses typescript
-- It uses yarn with PnP for its packages
+- It comes with emotion and the css prop for jsx out of the box
+- It uses yarn with PnP and zero-installs for its packages
 - It comes with an eslint and prettier configuration
 - By default it adds an MIT license to your project. If you want to use a different license,
   you'll have to change it manually.
