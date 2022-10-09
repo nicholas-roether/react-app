@@ -2,7 +2,7 @@ steps:
   - read: repo_name
     prompt: "Project Name:"
     default:
-      from: path.rootdir
+      from: filesystem.rootdir
   - read: description
     prompt: "Project Description:"
     default: "A really cool react app :)"
