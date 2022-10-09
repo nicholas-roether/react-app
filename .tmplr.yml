@@ -16,7 +16,7 @@ steps:
       prompt: "Author Email:"
   - read: private
     prompt: "Private:"
-    default: true
+    default: "true"
   - remove: LICENSE
   - remove: README.md
   - copy: .template/LICENSE
