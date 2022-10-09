@@ -9,7 +9,10 @@
   "packageManager": "yarn@3.2.4",
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "lint": "eslint .",
+    "lint:fix": "eslint --fix .",
+    "format": "prettier --write ."
   },
   "devDependencies": {
     "@types/react": "^18.0.21",
@@ -17,6 +20,8 @@
     "@typescript-eslint/eslint-plugin": "^5.39.0",
     "@typescript-eslint/parser": "^5.39.0",
     "eslint": "^8.25.0",
+    "eslint-config-prettier": "^8.5.0",
+    "prettier": "^2.7.1",
     "react-scripts": "^5.0.1",
     "typescript": "^4.8.4"
   },

@@ -5293,6 +5293,17 @@ __metadata:
   languageName: node
   linkType: hard
 
+"eslint-config-prettier@npm:^8.5.0":
+  version: 8.5.0
+  resolution: "eslint-config-prettier@npm:8.5.0"
+  peerDependencies:
+    eslint: ">=7.0.0"
+  bin:
+    eslint-config-prettier: bin/cli.js
+  checksum: 0d0f5c32e7a0ad91249467ce71ca92394ccd343178277d318baf32063b79ea90216f4c81d1065d60f96366fdc60f151d4d68ae7811a58bd37228b84c2083f893
+  languageName: node
+  linkType: hard
+
 "eslint-config-react-app@npm:^7.0.1":
   version: 7.0.1
   resolution: "eslint-config-react-app@npm:7.0.1"
@@ -9768,6 +9779,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"prettier@npm:^2.7.1":
+  version: 2.7.1
+  resolution: "prettier@npm:2.7.1"
+  bin:
+    prettier: bin-prettier.js
+  checksum: 55a4409182260866ab31284d929b3cb961e5fdb91fe0d2e099dac92eaecec890f36e524b4c19e6ceae839c99c6d7195817579cdffc8e2c80da0cb794463a748b
+  languageName: node
+  linkType: hard
+
 "pretty-bytes@npm:^5.3.0, pretty-bytes@npm:^5.4.1":
   version: 5.6.0
   resolution: "pretty-bytes@npm:5.6.0"
@@ -11168,22 +11188,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"sudoku-4d@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "sudoku-4d@workspace:."
-  dependencies:
-    "@types/react": ^18.0.21
-    "@types/react-dom": ^18.0.6
-    "@typescript-eslint/eslint-plugin": ^5.39.0
-    "@typescript-eslint/parser": ^5.39.0
-    eslint: ^8.25.0
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    react-scripts: ^5.0.1
-    typescript: ^4.8.4
-  languageName: unknown
-  linkType: soft
-
 "supports-color@npm:^5.3.0":
   version: 5.5.0
   resolution: "supports-color@npm:5.5.0"
@@ -12480,3 +12484,21 @@ __metadata:
   checksum: f77b3d8d00310def622123df93d4ee654fc6a0096182af8bd60679ddcdfb3474c56c6c7190817c84a2785648cdee9d721c0154eb45698c62176c322fb46fc700
   languageName: node
   linkType: hard
+
+"{{ tmplr.repo_name }}@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "{{ tmplr.repo_name }}@workspace:."
+  dependencies:
+    "@types/react": ^18.0.21
+    "@types/react-dom": ^18.0.6
+    "@typescript-eslint/eslint-plugin": ^5.39.0
+    "@typescript-eslint/parser": ^5.39.0
+    eslint: ^8.25.0
+    eslint-config-prettier: ^8.5.0
+    prettier: ^2.7.1
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    react-scripts: ^5.0.1
+    typescript: ^4.8.4
+  languageName: unknown
+  linkType: soft
