@@ -5,7 +5,7 @@
   "main": "src/index.ts",
   "author": "{{ tmplr.author_name }} <{{ tmplr.author_email }}>",
   "license": "MIT",
-  "private": {{ tmplr.private }},
+  "private": "{{ tmplr.private }}",
   "packageManager": "yarn@3.2.4",
   "scripts": {
     "start": "react-scripts start",
