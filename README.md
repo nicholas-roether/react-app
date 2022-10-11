@@ -19,17 +19,10 @@ You can feel free to fork it if you have your own direction to take it in!
 
 # Usage
 
-Once you have created a repository from this template, you will need to initialize it. For this,
-you need to have [tmplr](https://www.npmjs.com/package/tmplr) installed, which you can do like this:
+Once you have created a repository from this template, you will need to initialize it. To do this, use [tmplr](https://www.npmjs.com/package/tmplr):
 
 ```
-npm install --global tmplr
-```
-
-Once you have tmplr installed, simply execute it in your project directory, and it will handle the rest:
-
-```
-tmplr
+npx tmplr
 ```
 
 Then, just run yarn once to initialize the repository
