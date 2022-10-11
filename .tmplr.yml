@@ -23,6 +23,7 @@ steps:
   - remove: .template
   - update: package.json
   - update: public/index.html
+  - update: public/manifest.json
   - update: LICENSE
   - update: README.md
   - remove: .tmplr.yml
