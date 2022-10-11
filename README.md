@@ -32,6 +32,12 @@ Once you have tmplr installed, simply execute it in your project directory, and 
 tmplr
 ```
 
+Then, just run yarn once to initialize the repository
+
+```
+yarn
+```
+
 Finally, as soon as you open a `.ts` or `.tsx` file, VSCode will give you a prompt to ask whether it
 should use the typescript version this project defines - make sure to click allow, and everything
 will work properly!
