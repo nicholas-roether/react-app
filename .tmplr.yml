@@ -14,9 +14,6 @@ steps:
     from: git.author_email
     fallback:
       prompt: "Author Email:"
-  - read: private
-    prompt: "Private:"
-    default: "true"
   - remove: LICENSE
   - remove: README.md
   - copy: .template/LICENSE
