@@ -8297,13 +8297,13 @@ __metadata:
   linkType: hard
 
 "loader-utils@npm:^2.0.0":
-  version: 2.0.2
-  resolution: "loader-utils@npm:2.0.2"
+  version: 2.0.4
+  resolution: "loader-utils@npm:2.0.4"
   dependencies:
     big.js: ^5.2.2
     emojis-list: ^3.0.0
     json5: ^2.1.2
-  checksum: 9078d1ed47cadc57f4c6ddbdb2add324ee7da544cea41de3b7f1128e8108fcd41cd3443a85b7ee8d7d8ac439148aa221922774efe4cf87506d4fb054d5889303
+  checksum: a5281f5fff1eaa310ad5e1164095689443630f3411e927f95031ab4fb83b4a98f388185bb1fe949e8ab8d4247004336a625e9255c22122b815bb9a4c5d8fc3b7
   languageName: node
   linkType: hard
 
@@ -11258,6 +11258,30 @@ __metadata:
   languageName: node
   linkType: hard
 
+"something@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "something@workspace:."
+  dependencies:
+    "@craco/craco": ^6.4.5
+    "@emotion/babel-plugin": ^11.10.2
+    "@emotion/babel-preset-css-prop": ^11.10.0
+    "@emotion/react": ^11.10.4
+    "@types/react": ^18.0.21
+    "@types/react-dom": ^18.0.6
+    "@typescript-eslint/eslint-plugin": ^5.40.0
+    "@typescript-eslint/parser": ^5.40.0
+    eslint: ^8.25.0
+    eslint-config-prettier: ^8.5.0
+    eslint-config-react-app: ^7.0.1
+    eslint-plugin-jsx-a11y: ^6.6.1
+    prettier: ^2.7.1
+    react: ^18.2.0
+    react-dom: ^18.2.0
+    react-scripts: ^5.0.1
+    typescript: ^4.8.4
+  languageName: unknown
+  linkType: soft
+
 "source-list-map@npm:^2.0.0, source-list-map@npm:^2.0.1":
   version: 2.0.1
   resolution: "source-list-map@npm:2.0.1"
@@ -12955,27 +12979,3 @@ __metadata:
   checksum: f77b3d8d00310def622123df93d4ee654fc6a0096182af8bd60679ddcdfb3474c56c6c7190817c84a2785648cdee9d721c0154eb45698c62176c322fb46fc700
   languageName: node
   linkType: hard
-
-"{{ tmplr.repo_name }}@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "{{ tmplr.repo_name }}@workspace:."
-  dependencies:
-    "@craco/craco": ^6.4.5
-    "@emotion/babel-plugin": ^11.10.2
-    "@emotion/babel-preset-css-prop": ^11.10.0
-    "@emotion/react": ^11.10.4
-    "@types/react": ^18.0.21
-    "@types/react-dom": ^18.0.6
-    "@typescript-eslint/eslint-plugin": ^5.40.0
-    "@typescript-eslint/parser": ^5.40.0
-    eslint: ^8.25.0
-    eslint-config-prettier: ^8.5.0
-    eslint-config-react-app: ^7.0.1
-    eslint-plugin-jsx-a11y: ^6.6.1
-    prettier: ^2.7.1
-    react: ^18.2.0
-    react-dom: ^18.2.0
-    react-scripts: ^5.0.1
-    typescript: ^4.8.4
-  languageName: unknown
-  linkType: soft
